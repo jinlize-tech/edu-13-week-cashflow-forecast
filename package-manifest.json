@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-092",
   "repository_name": "edu-13-week-cashflow-forecast",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-13-week-cashflow-forecast-v1.0.0.zip",
-  "sha256": "3C17438566E6F9CCC43C16F605A4AED7C17FAC71F2764B9F1A3159585EB82963",
-  "bytes": 41748,
+  "version": "1.0.1",
+  "package_path": "dist/edu-13-week-cashflow-forecast-v1.0.1.zip",
+  "sha256": "E82841031B1008F5E18FCDA8118218648783C896071593D8ED9FDDDB22CEBA1D",
+  "bytes": 42785,
   "entries": [
     "edu-13-week-cashflow-forecast/README.md",
     "edu-13-week-cashflow-forecast/PRODUCT_SPEC.md",
@@ -36,5 +36,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:06:54.059268+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-13-week-cashflow-forecast-v1.0.0.zip",
+  "previous_package_sha256": "3C17438566E6F9CCC43C16F605A4AED7C17FAC71F2764B9F1A3159585EB82963",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
