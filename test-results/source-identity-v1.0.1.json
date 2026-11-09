@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-092",
+  "repository_name": "edu-13-week-cashflow-forecast",
+  "version": "1.0.1",
+  "tested_source_commit": "e7bb1b5e6e17161f98f142fb5d647c27047ea6e7",
+  "tested_source_tree_sha": "9b8758026ccbb6c55c7078af8cbcd1910029bd68",
+  "package_path": "dist/edu-13-week-cashflow-forecast-v1.0.1.zip",
+  "package_sha256": "E82841031B1008F5E18FCDA8118218648783C896071593D8ED9FDDDB22CEBA1D",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 56,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
