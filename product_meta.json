@@ -1,0 +1,31 @@
+{
+  "number": 92,
+  "product_id": "JLZ-EDU-SK-092",
+  "candidate_id": "CAND-030",
+  "chinese_name": "十三周现金流预测",
+  "english_name": "13-Week Cash Flow Forecaster",
+  "repository_name": "edu-13-week-cashflow-forecast",
+  "repository_url": "https://github.com/jinlize-tech/edu-13-week-cashflow-forecast",
+  "product_type": "Skill",
+  "category": "12 经营决策与财务规划中心",
+  "batch": 1,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "13周现金表",
+    "缺口预警",
+    "关键假设"
+  ],
+  "optional_outputs": [
+    "情景对比",
+    "行动优先级",
+    "每周更新模板"
+  ],
+  "high_risk": false,
+  "deterministic": true,
+  "scenario_count": 13,
+  "package_path": "dist/edu-13-week-cashflow-forecast-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

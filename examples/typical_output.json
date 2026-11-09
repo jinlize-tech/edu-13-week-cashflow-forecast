@@ -1,0 +1,63 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-092",
+  "status": "completed",
+  "status_reason": "已基于脱敏示例资料形成完整专业成果，并保留人工复核要求。",
+  "summary": "十三周现金流预测的脱敏示例成果，仅用于结构演示。",
+  "deliverables": {
+    "13周现金表": [
+      {
+        "title": "13周现金表",
+        "content": "根据脱敏示例输入形成的13周现金表，包含依据、限制和下一步。",
+        "evidence_refs": [
+          "USER_INPUT_001"
+        ],
+        "risk_level": "low",
+        "next_action": "由业务负责人复核后使用"
+      }
+    ],
+    "缺口预警": [
+      {
+        "title": "缺口预警",
+        "content": "根据脱敏示例输入形成的缺口预警，包含依据、限制和下一步。",
+        "evidence_refs": [
+          "USER_INPUT_001"
+        ],
+        "risk_level": "low",
+        "next_action": "由业务负责人复核后使用"
+      }
+    ],
+    "关键假设": [
+      {
+        "title": "关键假设",
+        "content": "根据脱敏示例输入形成的关键假设，包含依据、限制和下一步。",
+        "evidence_refs": [
+          "USER_INPUT_001"
+        ],
+        "risk_level": "low",
+        "next_action": "由业务负责人复核后使用"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "用户提供的脱敏示例资料",
+      "source_type": "user_provided",
+      "verification_status": "provided_by_user"
+    }
+  ],
+  "assumptions": [
+    "示例仅用于展示输出结构，不代表真实机构事实"
+  ],
+  "open_questions": [],
+  "human_review": {
+    "required": false,
+    "reviewer_role": "业务负责人",
+    "review_points": [
+      "输入事实、关键假设和最终成果适用范围"
+    ],
+    "confirmed": false
+  },
+  "errors": [],
+  "next_action": "按待确认事项完成业务负责人复核"
+}

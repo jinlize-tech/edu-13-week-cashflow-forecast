@@ -1,0 +1,26 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "opening_cash": 1000.0,
+  "collections_schedule": [
+    {}
+  ],
+  "refunds_schedule": [
+    {}
+  ],
+  "payroll_schedule": [
+    {}
+  ],
+  "rent_schedule": [
+    {}
+  ],
+  "marketing_schedule": [
+    {}
+  ],
+  "other_payments": [
+    {}
+  ],
+  "scenario_name": "情景名称已核对（脱敏示例）"
+}

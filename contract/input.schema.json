@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-092/input.schema.json",
+  "title": "十三周现金流预测输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "opening_cash",
+    "collections_schedule",
+    "refunds_schedule",
+    "payroll_schedule",
+    "rent_schedule",
+    "marketing_schedule"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "opening_cash": {
+      "title": "期初现金余额",
+      "description": "本币金额",
+      "type": "number",
+      "minimum": 0
+    },
+    "collections_schedule": {
+      "title": "十三周预期收款",
+      "description": "每周金额和口径",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "refunds_schedule": {
+      "title": "十三周预期退款",
+      "description": "每周金额与假设",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "payroll_schedule": {
+      "title": "十三周工资与提成",
+      "description": "每周金额",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "rent_schedule": {
+      "title": "十三周房租与固定支出",
+      "description": "每周金额",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "marketing_schedule": {
+      "title": "十三周营销支出",
+      "description": "每周金额",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "other_payments": {
+      "title": "其他现金支出",
+      "description": "税费、采购、借款等",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "scenario_name": {
+      "title": "情景名称",
+      "description": "基准、保守或压力情景",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
